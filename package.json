@@ -1,0 +1,23 @@
+{
+  "name": "schema-index-generator",
+  "version": "0.1.0",
+  "description": "Proof of concept application to scan through a set of JSON schemas organised in an assumed directory structure to produce an index of schema's grouped by project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:felnne/schema-index-generator.git"
+  },
+  "author": "Felix Fennell <felnne@bas.ac.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felnne/schema-index-generator/issues"
+  },
+  "homepage": "https://github.com/felnne/schema-index-generator",
+  "dependencies": {
+    "glob": "^5.0.14",
+    "q": "^1.4.1"
+  }
+}

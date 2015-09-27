@@ -1,0 +1,5 @@
+---
+# These variables override those defined by roles
+
+project_hostname_project: "bas-schemas"
+project_repository: ""

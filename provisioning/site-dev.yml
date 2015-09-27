@@ -1,0 +1,14 @@
+---
+# Setup infrastructure and application
+
+- name: setup application node
+  hosts: schema-index-generator-dev
+  remote_user: controller
+  become: yes
+  roles:
+    - nodejs
+
+- name: setup application
+  hosts: schema-index-generator-dev
+  remote_user: app
+  tasks: []
